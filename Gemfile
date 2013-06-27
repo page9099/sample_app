@@ -8,6 +8,11 @@ group :development, :test do
   gem 'rspec-rails'
 end
 
+group :development do
+  gem 'annotate', '2.5.0'
+end
+
+
 # assetsでは使うが、
 # 本番環境ではデフォルトで不要なGem
 group :assets do
