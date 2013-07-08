@@ -24,7 +24,11 @@
     このあぷりはほにゃほにゃが何でも分かるようになります
   </h2>
 
-  <%= link_to '<i class="icon-ok"></i>' , signup_path, :class => "btn btn-large btn-primary" %>
+  
+  <%= link_to(signup_path, :class => 'btn btn-large btn-primary') do %>
+  	<i class="icon-pencil icon-white"></i> 秒速で登録!!
+	<% end %>
+
 </div>
 
 <!--
